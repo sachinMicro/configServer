@@ -19,12 +19,4 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: update
-management:
-  endpoints:
-    web:
-      exposure:
-        include: prometheus
-  tracing:
-    sampling:
-      probability: '1.0'
 
