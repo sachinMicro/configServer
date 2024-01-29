@@ -8,11 +8,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 spring:
-  zipkin:
-      base-url: http://localhost:9411/
-  sleuth:
-     sampler:
-       probability: 1.0
   datasource:
     url: jdbc:mysql://localhost:3306/db_test
     username: root
