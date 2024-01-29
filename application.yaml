@@ -29,4 +29,4 @@ management:
         include: prometheus
   tracing:
     sampling:
-      probability: 1.0
+      probability: '1.0'
